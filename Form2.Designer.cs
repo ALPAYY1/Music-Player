@@ -134,7 +134,6 @@ namespace Alpays_Radio
             this.Controls.Add(this.CheckBoxRandom);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "OfflineWindow";
             this.Text = "Music Player (Offline)";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.OfflineWindow_Close);

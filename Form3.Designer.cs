@@ -113,7 +113,6 @@ namespace Alpays_Radio
             this.Controls.Add(this.StreamsDropDown);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "OnlineWindow";
             this.Text = "Music Player (Online)";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.OnlineWindow_Close);

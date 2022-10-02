@@ -63,7 +63,6 @@ namespace Alpays_Radio
             this.Controls.Add(this.OnlineButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "FirstWindow";
             this.Text = "Music Player";
             this.ResumeLayout(false);
