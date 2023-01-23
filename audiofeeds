@@ -1,0 +1,27 @@
+<streams>
+	<url label="Dogglounge">https://dogglounge.com:8000/;stream.mp3</url>
+	<url label="Dance House Radio RO">http://live.dancemusic.ro:7000/stream</url>
+	<url label="Dance House Network">http://91.121.175.25:8000/mp3/stream</url>
+	<url label="Dance Radio UK">https://dancestream.danceradiouk.com/stream/1/</url>
+	<url label="Milano Lounge">https://centova.wlservices.org/proxy/pufepstm?mp=/stream</url>
+	<url label="Hirschmilch Radio">https://hirschmilch.de:7001/chillout.mp3</url>
+	<url label="Chill Lounge Florida">https://vip2.fastcast4u.com/proxy/chillfla?mp=/1</url>
+	<url label="Roots Legacy FR">https://www.rootslegacy.fr:81/;</url>
+	<url label="Deep In Radio">https://ssl1.viastreaming.net:8525/stream.mp3</url>
+	<url label="Psyndora">https://cast.magicstreams.gr/sc/psyndora/stream</url>
+	<url label="Psy Progressive">http://streamer.psyradio.org:8010/;listen.mp3</url>
+	<url label="Psy Chillout">http://streamer.psyradio.org:8020/;listen.mp3</url>
+	<url label="Psy Psytrance">http://streamer.psyradio.org:8030/;listen.mp3</url>
+	<url label="Classic Metal Radio">http://hazel.torontocast.com:2280/stream</url>
+	<url label="Metal Rock FM">https://kathy.torontocast.com:2800/;</url>
+	<url label="Turk Rap">https://player.web.tr/listen/b9b96f7c7d6d6a484e13c494d7221ade</url>
+	<url label="Damar FM">https://yayin.damarfm.com:8080/;</url>
+	<url label="DTLR Radio">https://cp8.shoutcheap.com:18195/stream.mp3</url>
+	<url label="Sensi HipHop">https://sensihiphop.radioca.st/;</url>
+	<url label="Streetz 94.5">http://104.6.216.93:8000/Streetz</url>
+	<url label="Hot 21 Radio">https://usa18.fastcast4u.com/proxy/cbardzin?mp=/1</url>
+	<url label="Hot 108 Jamz">https://live.powerhitz.com/hot108</url>
+	<url label="Wild Country Radio">http://radio.streemlion.com:3590/;?nocache=1621355991</url>
+	<url label="Radio Caprice Stoner Rock">http://79.111.119.111:8000/stonerrock</url>
+	<url label="Chillsky Lofi HipHop">https://lfhh.radioca.st/stream</url>
+</streams>
