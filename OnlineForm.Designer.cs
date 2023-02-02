@@ -30,11 +30,11 @@ namespace Alpays_Radio
         private void InitializeComponent()
         {
             this.StreamsDropDown = new System.Windows.Forms.ComboBox();
-            this.OnlineNowPlayingLabel = new System.Windows.Forms.Label();
             this.OnlinePlayPause = new System.Windows.Forms.Button();
             this.OnlineReturnButton = new System.Windows.Forms.Button();
             this.OnlineVolDown = new System.Windows.Forms.Button();
             this.OnlineVolUp = new System.Windows.Forms.Button();
+            this.OnlineRadioTrackText = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // StreamsDropDown
@@ -49,15 +49,6 @@ namespace Alpays_Radio
             this.StreamsDropDown.TabIndex = 0;
             this.StreamsDropDown.Text = "           Select radio";
             this.StreamsDropDown.SelectedIndexChanged += new System.EventHandler(this.StreamIndexChanged);
-            // 
-            // OnlineNowPlayingLabel
-            // 
-            this.OnlineNowPlayingLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.OnlineNowPlayingLabel.Location = new System.Drawing.Point(20, 9);
-            this.OnlineNowPlayingLabel.Name = "OnlineNowPlayingLabel";
-            this.OnlineNowPlayingLabel.Size = new System.Drawing.Size(286, 15);
-            this.OnlineNowPlayingLabel.TabIndex = 6;
-            this.OnlineNowPlayingLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // OnlinePlayPause
             // 
@@ -99,17 +90,29 @@ namespace Alpays_Radio
             this.OnlineVolUp.UseVisualStyleBackColor = true;
             this.OnlineVolUp.Click += new System.EventHandler(this.OnlineVolUp_Click);
             // 
+            // OnlineRadioTrackText
+            // 
+            this.OnlineRadioTrackText.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.OnlineRadioTrackText.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.OnlineRadioTrackText.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.OnlineRadioTrackText.Location = new System.Drawing.Point(22, 9);
+            this.OnlineRadioTrackText.Name = "OnlineRadioTrackText";
+            this.OnlineRadioTrackText.ReadOnly = true;
+            this.OnlineRadioTrackText.Size = new System.Drawing.Size(295, 15);
+            this.OnlineRadioTrackText.TabIndex = 12;
+            this.OnlineRadioTrackText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // OnlineWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(329, 201);
+            this.Controls.Add(this.OnlineRadioTrackText);
             this.Controls.Add(this.OnlineVolUp);
             this.Controls.Add(this.OnlineVolDown);
             this.Controls.Add(this.OnlineReturnButton);
             this.Controls.Add(this.OnlinePlayPause);
-            this.Controls.Add(this.OnlineNowPlayingLabel);
             this.Controls.Add(this.StreamsDropDown);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -118,16 +121,17 @@ namespace Alpays_Radio
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.OnlineWindow_Close);
             this.Load += new System.EventHandler(this.OnlineWindow_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.ComboBox StreamsDropDown;
-        private System.Windows.Forms.Label OnlineNowPlayingLabel;
         private System.Windows.Forms.Button OnlinePlayPause;
         private System.Windows.Forms.Button OnlineReturnButton;
         private System.Windows.Forms.Button OnlineVolDown;
         private System.Windows.Forms.Button OnlineVolUp;
+        public System.Windows.Forms.TextBox OnlineRadioTrackText;
     }
 }
