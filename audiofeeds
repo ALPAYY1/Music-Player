@@ -21,7 +21,6 @@
   <url label="Radio Caprice Stoner Rock">http://79.111.119.111:8000/stonerrock</url>
   <url label="Chillsky Lofi HipHop">https://lfhh.radioca.st/stream</url>
   <url label="Radyo Ankara Oyun Havalari">https://crd.web.tr/reverse/?q=http://37.247.98.8/stream/30//;/stream</url>
-  <url label="Radyo Best Kina">https://radyodinle.turkhosted.com/live/best-kina/icecast.audio?tkn=G0pa1_1dqeRFJUUtxT-w3g&tms=1676357447</url>
   <url label="Radyo Muhtesem Dortlu">https://turku7.radyotvonline.net/muhtesemdortlu?/;stream.mp3</url>
   <url label="Radyo Seymen">https://yayin.radyoseymen.com.tr:1070/stream?/;stream.mp3</url>
 </streams>
