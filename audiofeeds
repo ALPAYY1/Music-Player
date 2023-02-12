@@ -1,5 +1,4 @@
 <streams>
-  <url label="Dogglounge">https://dogglounge.com:8000/;stream.mp3</url>
   <url label="Dance House Radio RO">http://live.dancemusic.ro:7000/stream</url>
   <url label="Dance House Network">http://91.121.175.25:8000/mp3/stream</url>
   <url label="Dance Radio UK">https://dancestream.danceradiouk.com/stream/1/</url>
@@ -18,12 +17,11 @@
   <url label="Damar FM">https://yayin.damarfm.com:8080/;</url>
   <url label="DTLR Radio">https://cp8.shoutcheap.com:18195/stream.mp3</url>
   <url label="Sensi HipHop">https://sensihiphop.radioca.st/;</url>
-  <url label="Streetz 94.5">http://104.6.216.93:8000/Streetz</url>
   <url label="Hot 21 Radio">https://usa18.fastcast4u.com/proxy/cbardzin?mp=/1</url>
-  <url label="Hot 108 Jamz">https://live.powerhitz.com/hot108</url>
-  <url label="Wild Country Radio">http://radio.streemlion.com:3590/;?nocache=1621355991</url>
   <url label="Radio Caprice Stoner Rock">http://79.111.119.111:8000/stonerrock</url>
   <url label="Chillsky Lofi HipHop">https://lfhh.radioca.st/stream</url>
-  <url label="Radyo Seymen">https://lfhh.radioca.st/stream</url>
   <url label="Radyo Ankara Oyun Havalari">https://crd.web.tr/reverse/?q=http://37.247.98.8/stream/30//;/stream</url>
+  <url label="Radyo Best Kina">https://radyodinle.turkhosted.com/live/best-kina/icecast.audio?tkn=G0pa1_1dqeRFJUUtxT-w3g&tms=1676357447</url>
+  <url label="Radyo Muhtesem Dortlu">https://turku7.radyotvonline.net/muhtesemdortlu?/;stream.mp3</url>
+  <url label="Radyo Seymen">https://yayin.radyoseymen.com.tr:1070/stream?/;stream.mp3</url>
 </streams>
