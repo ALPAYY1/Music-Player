@@ -23,4 +23,9 @@
   <url label="Radyo Ankara Oyun Havalari">https://crd.web.tr/reverse/?q=http://37.247.98.8/stream/30//;/stream</url>
   <url label="Radyo Muhtesem Dortlu">https://turku7.radyotvonline.net/muhtesemdortlu?/;stream.mp3</url>
   <url label="Radyo Seymen">https://yayin.radyoseymen.com.tr:1070/stream?/;stream.mp3</url>
+  <url label="Move Da House">https://uk7.internet-radio.com/proxy/movedahouse?mp=/stream</url>
+  <url label="Dance Attack">https://uk4.internet-radio.com/proxy/danceattackfm?mp=/stream</url>
+  <url label="Music Factory">https://i4.streams.ovh/sc/musicfactory/stream/;type=mp3</url>
+  <url label="Trance Pulse">https://uk6.internet-radio.com/proxy/trancepulse?mp=/live</url>
+  <url label="DnB Radio">https://trace.dnbradio.com/dnbradio.mp3</url>
 </streams>
